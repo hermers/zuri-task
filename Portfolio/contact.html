@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="wrap">
+            
+            <nav>
+                <ul class="menu-item">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <div class="contain">
+            <form action="">
+                <div class="row">
+                    <div class="col25">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col75">
+                        <input type="text" id="name" name="name" placeholder="Your name.." maxlength="10" minlength="5">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col25">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="col75">
+                      <input type="email" id="email" name="email" placeholder="Your email.." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col25">
+                      <label for="subject">Subject</label>
+                    </div>
+                    <div class="col75">
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" maxlength="50"></textarea>
+                    </div>
+                </div>
+                  <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>    
+            </form>
+        </div>
+    </main>
+</body>
+</html>
